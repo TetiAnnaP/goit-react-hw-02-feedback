@@ -8,7 +8,7 @@ const Statistics = ({ state, countTotalFeedback, countPositiveFeedbackPercentage
             <li className={css.item}>Neutral: {state.neutral}</li>
             <li className={css.item}>Bad: {state.bad}</li>
             <li className={css.item}>Total: { countTotalFeedback()}</li>
-            <li className={css.item}> Positive feedack: { countPositiveFeedbackPercentage()} %</li>
+            <li className={css.item}> Positive feedback: { countPositiveFeedbackPercentage()} %</li>
         </ul></div>)
 }
 
